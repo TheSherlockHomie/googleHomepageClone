@@ -1,0 +1,175 @@
+/* Google homepage created as practice
+    Kushagra Kalash
+    June 17, 2018
+    All images and branding used belong to Google */
+
+html{
+    font-family: 'Arial', 'sans-serif';
+    font-size: small;
+    color: black;
+}
+a{
+    text-decoration: none;
+    font-family: 'Arial', 'sans-serif';
+    font-size: small;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+.topNav{
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#gmail, #images{
+	height: 24px;
+	line-height: 24px;
+	opacity: 0.85;
+    padding-left: 15px;
+    vertical-align: middle;
+}
+#products{
+    background-image: url("productivity.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3px 10px;
+    margin-left: 20px;
+    opacity: 0.7;
+    vertical-align: middle;
+}
+#products:hover{
+    opacity:100;
+}
+#notifications{
+    background-image: url("notifications.png");
+    background-color: #727272;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    padding: 4px 12px;
+    margin-left: 20px;
+    border-radius: 30px;
+    background-position: center;
+    vertical-align: middle;
+}
+#notifications:hover{
+    background-color: rgb(44, 44, 44);
+}
+#user{
+    background-color: purple;
+    background-size: 30px 15px;
+    padding: 11px 19px;
+    border-radius: 30px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+#background{
+    display: block;
+    margin-top: 154px;
+    background-image: url("logo.png");
+    background-repeat:  no-repeat;
+    background-size: 272px 92px;
+    width: 272px;
+    height: 92px;
+    background-position: center;
+    padding: 0% 41.8%;
+}
+#main{
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+#search-bar{
+    text-align: center;
+}
+input[type="text"]
+{
+    height: 40px;
+    width: 32%;
+    border-radius: 4px;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0 1px 2px 0.5px #ccc;
+    font-size: 1.25em;
+    font-weight: 500;
+    text-indent: 10px;
+    background-image: url("mic.png");
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    background-position: 99% 2px;
+}
+#buttons{
+    margin-top: 30px;
+}
+input[type="submit"], input[type="button"]{
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    color: #757575;
+    font-weight: bold;
+    height: 36px;
+    padding: 0 16px;
+    margin: 0 2px 30px 2px;
+}
+input[type="submit"]:hover, input[type="button"]:hover{
+    border: 1px solid #c6c6c6;
+    color: #000;
+}
+input[type="text"]:hover, input[type="text"]:active, input[type="text"]:focus, input[type="text"]:focus-within{
+    box-shadow: 0 3px 8px 1px #ccc;
+}
+#local{
+    font-size: 13px;
+    word-spacing: 0.15em;
+}
+#local a{
+    color: #1a0dab;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    color: rgb(119, 119, 119);
+    font-size: small;
+    left: 0px;
+    line-height: 2.1em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 1.05em;
+    letter-spacing: 0.02em;
+}
+footer a{
+    font-weight: 400;
+    color: #666;
+    font-size: 0.92em;
+
+}
+footer a:hover{
+    text-decoration: underline;
+}
+#fTop{
+    padding:6px 30px;
+}
+#fB
+{
+    border-top: 1px solid #e0e0e0;
+    padding: 6px 30px;
+}
+.fLeft{
+    margin-right: 20px;
+}
+#fright{
+    float: right;
+}
+.fright{
+    text-align: right;
+    margin-right: 20px;
+}
+#settings{
+    margin-right: 0px;
+}

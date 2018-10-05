@@ -67,13 +67,7 @@ a:hover{
 #background{
     display: block;
     margin-top: 40px;
-    background-image: url("doodle.gif");
-    background-repeat:  no-repeat;
-    background-size: 600px 250px;
-    width: 250px;
-    height: 270px;
-    background-position: center;
-    padding: 0% 41.8%;
+    padding: 0% 30%;
 }
 #main{
     display: block;
